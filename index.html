@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herin Catharin - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">Herin.</a>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About me</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">My Work</a>
+                <a href="#contact">Contact me</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <a href="#contact" class="btn btn-sm btn-outline-pill">
+                    Contact 
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-avatar">
+                    <img src="herin.jpg" alt="Herin Catharin">
+                </div>
+                <div class="hero-content">
+                    <p class="greeting">Hi! I'm Herin Catharin 👋</p>
+                    <h1 class="hero-title">frontend web developer based in India.</h1>
+                    <p class="hero-desc">I am a passionate front-end developer, working to gain experience and seeking good opportunities..</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            contact me 
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#" class="btn btn-outline">
+                            my resume 
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Introduction</span>
+                    <h2 class="title">About me</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <!-- Left: Image with Rotating Badge -->
+                    <div class="about-image-wrapper">
+                        <div class="about-image">
+                            <!-- Placeholder if herin.jpg is square/portrait, using object-fit -->
+                            <img src="herin.jpg" alt="Herin Catharin">
+                        </div>
+                        <div class="floating-badge">
+                            <div class="badge-content">
+                                <svg viewBox="0 0 100 100" width="100" height="100">
+                                    <defs>
+                                        <path id="circle" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                                    </defs>
+                                    <text font-size="11.5">
+                                        <textPath xlink:href="#circle">
+                                            REACTjs • HTML • CSS • JAVA • FIGMA •
+                                        </textPath>
+                                    </text>
+                                </svg>
+                                <div class="badge-icon">👩‍💻</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Content -->
+                    <div class="about-content">
+                        <p class="about-text">
+                            A motivated B.Tech student with a strong interest in Artificial Intelligence and Frontend Development, eager to apply academic knowledge and practical skills to develop efficient, scalable, and intuitive digital solutions.
+                        </p>
+
+                        <div class="info-cards">
+                            <div class="info-card">
+                                <div class="icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                                </div>
+                                <h3>Languages</h3>
+                                <p>HTML, CSS, JS, React</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M2 16h20M12 12v3"></path><path d="M12 3L2 8h20L12 3z"></path><path d="M6 21h12"></path></svg>
+                                </div>
+                                <h3>Education</h3>
+                                <p>B.Tech. in Artificial Intelligence and Data Science</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                                </div>
+                                <h3>Projects</h3>
+                                <p>Built 5+ Web Projects</p>
+                            </div>
+                        </div>
+
+                        <div class="tools-section">
+                            <h4 class="tools-label">Tools I use</h4>
+                            <div class="tools-list">
+                                <div class="tool-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="24">
+                                </div>
+                                <div class="tool-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="24">
+                                </div>
+                                <div class="tool-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="24">
+                                </div>
+                                <div class="tool-item">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" width="24">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">My portfolio</span>
+                    <h2 class="title">My latest work</h2>
+                    <p class="section-desc">Welcome to my portfolio! Explore a collection of projects showcasing my expertise in AI and front-end development.</p>
+                </div>
+
+<div class="portfolio-grid">
+    <a href="https://github.com/Herin-Catharin/Portfolio" 
+       class="project-card" 
+       target="_blank" 
+       rel="noopener noreferrer">
+        <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=800&auto=format&fit=crop" alt="Portfolio Website">
+        </div>
+        <div class="project-info">
+            <div class="project-text">
+                <h3>Portfolio Website</h3>
+                <span>HTML, CSS, JS</span>
+            </div>
+            <div class="project-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+            </div>
+        </div>
+    </a>
+    
+    <a href="https://github.com/Herin-Catharin/Smart-Hostel-Automation" 
+       class="project-card" 
+       target="_blank" 
+       rel="noopener noreferrer">
+        <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=800&auto=format&fit=crop" alt="Smart Hostel Automation">
+        </div>
+        <div class="project-info">
+            <div class="project-text">
+                <h3>Hostel Outpass Management System</h3>
+                <span>React, Python, MongoDB</span>
+            </div>
+            <div class="project-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+            </div>
+        </div>
+    </a>
+</div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Connect with me</span>
+                    <h2 class="title">Get in touch</h2>
+                    <p class="section-desc">I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.</p>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" class="form-input" placeholder="Enter your name" required>
+                        <input type="email" class="form-input" placeholder="Enter your email" required>
+                    </div>
+                    <textarea class="form-input form-textarea" placeholder="Enter your message" rows="6" required></textarea>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-wide">
+                            Submit now 
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-links">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="mailto:Herin@example.com">Email</a>
+                <a href="https://wa.me/" target="_blank">WhatsApp</a>
+            </div>
+            <p class="copyright">&copy; 2026 Herin Catharin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        const header = document.querySelector('.header');
+        
+        function updateHeader() {
+            if (window.scrollY > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }
+
+        window.addEventListener('scroll', updateHeader);
+        updateHeader(); // Initial check
+    </script>
+</body>
+</html>
